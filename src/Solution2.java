@@ -6,7 +6,6 @@ public class Solution2 {
         public String solution(int n) {
             String answer = "";
             for (int i = 0; i <=n; i++) {
-                
                 if (n%2 == 1) {
                     result += "수";
                 } else {
@@ -16,6 +15,5 @@ public class Solution2 {
             return answer;
         }
     }
-
 }
 
